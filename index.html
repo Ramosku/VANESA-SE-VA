@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MENSAJE PARA VANESSA</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="start-menu" class="center-container">
+    <h1 class="neon-text-pink">Tengo algo que decirte</h1>
+    <button class="neon-button-pink" onclick="startExperience()">Comenzar</button>
+  </div>
+
+  <div id="experience-container" style="display: none;">
+    <div id="image-container" class="center-container">
+      <img src="IMG/VANE1.jpeg" alt="Imagen 1" class="displayed-image">
+      <p class="displayed-message neon-text-pink">¡Te queremos mucho, Vane!<br>
+      Gracias por todo 🤗</p>
+
+      <img src="IMG/efb41bea-0e40-48b6-806c-817ecd531960.jpeg" alt="Imagen 2" class="displayed-image" style="display: none;">
+      <p class="displayed-message neon-text-pink" style="display: none;">!Gracias por ser compresiva con todos!<br>
+       por soportar y entender nuestras coleras y problemas😅</p>
+
+      <img src="IMG/vane3.jpeg" alt="Imagen 3" class="displayed-image" style="display: none;">
+      <p class="displayed-message neon-text-pink" style="display: none;"> !Seras la mejor administradora! <br>
+      te quiero mucho amiguita, Muchos exitos para ti 🥳</p>
+
+      <img src="IMG/vane 4.jpeg" alt="Imagen 3" class="displayed-image" style="display: none;">
+      <p class="displayed-message neon-text-pink" style="display: none;"> GRACIAS POR TODO! <br>
+      no nos olvides! 😤</p>
+
+
+    </div>
+    <button id="next-button" class="neon-button-pink" onclick="showNextImage()" style="display: none; position: absolute; bottom: 20px; right: 20px;">Siguiente</button>
+  </div>
+
+  <div id="final-message-container" class="center-container" style="display: none;">
+    <p class="displayed-message neon-text-pink">¡Muchas gracias!</p>
+  </div>
+
+  <audio id="background-music" loop>
+    <source src="musica/ssi.mp3juice.blog - The Walters -- I Love You So.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
